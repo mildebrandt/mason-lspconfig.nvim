@@ -43,13 +43,10 @@ return {
                 desc = "[mason-lspconfig.nvim] Installs the provided packages in the same venv as pylsp.",
                 nargs = "+",
                 complete = _.always {
-                    "pyls-flake8",
-                    "pyls-isort",
                     "pyls-memestra",
                     "pyls-spyder",
                     "pylsp-mypy",
                     "pylsp-rope",
-                    "python-lsp-black",
                     "python-lsp-ruff",
                 },
             }
